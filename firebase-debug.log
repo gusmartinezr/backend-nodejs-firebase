@@ -1,0 +1,62 @@
+[debug] [2025-11-04T17:38:58.891Z] ----------------------------------------------------------------------
+[debug] [2025-11-04T17:38:58.894Z] Command:       /Users/gustavo/.nvm/versions/node/v22.2.0/bin/node /Users/gustavo/.nvm/versions/node/v22.2.0/bin/firebase init hosting
+[debug] [2025-11-04T17:38:58.894Z] CLI Version:   14.23.0
+[debug] [2025-11-04T17:38:58.894Z] Platform:      darwin
+[debug] [2025-11-04T17:38:58.894Z] Node Version:  v22.2.0
+[debug] [2025-11-04T17:38:58.894Z] Time:          Tue Nov 04 2025 13:38:58 GMT-0400 (Bolivia Time)
+[debug] [2025-11-04T17:38:58.894Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/gustavo/Gustavo/Trabajo Panama prueba/backend-nodejs-firebase
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2025-11-04T17:38:59.016Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-11-04T17:38:59.016Z] > authorizing via signed-in user (armatar1234@gmail.com)
+[debug] [2025-11-04T17:38:59.017Z] Checked if tokens are valid: true, expires at: 1762279404903
+[debug] [2025-11-04T17:38:59.017Z] Checked if tokens are valid: true, expires at: 1762279404903
+[debug] [2025-11-04T17:38:59.018Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/atom-challenge-90d26 [none]
+[debug] [2025-11-04T17:38:59.636Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/atom-challenge-90d26 200
+[debug] [2025-11-04T17:38:59.636Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/atom-challenge-90d26 {"projectId":"atom-challenge-90d26","projectNumber":"985752434947","displayName":"atom-challenge","name":"projects/atom-challenge-90d26","resources":{"hostingSite":"atom-challenge-90d26"},"state":"ACTIVE","etag":"1_6fe02450-7cc1-436d-9bb4-27d9cbd70a43"}
+[info] i  Using project atom-challenge-90d26 (atom-challenge) . 
+[info] 
+=== Hosting Setup
+[debug] [2025-11-04T17:38:59.645Z] Checked if tokens are valid: true, expires at: 1762279404903
+[debug] [2025-11-04T17:38:59.645Z] Checked if tokens are valid: true, expires at: 1762279404903
+[debug] [2025-11-04T17:38:59.645Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/atom-challenge-90d26 [none]
+[debug] [2025-11-04T17:38:59.974Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/atom-challenge-90d26 200
+[debug] [2025-11-04T17:38:59.974Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/atom-challenge-90d26 {"projectId":"atom-challenge-90d26","projectNumber":"985752434947","displayName":"atom-challenge","name":"projects/atom-challenge-90d26","resources":{"hostingSite":"atom-challenge-90d26"},"state":"ACTIVE","etag":"1_6fe02450-7cc1-436d-9bb4-27d9cbd70a43"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-11-04T17:39:18.341Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (/Users/gustavo/.nvm/versions/node/v22.2.0/lib/node_modules/firebase-tools/node_modules/@inquirer/core/dist/commonjs/lib/create-prompt.js:101:37)
+    at Interface.emit (node:events:520:28)
+    at Interface.emit (node:domain:488:12)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:264:20)
+    at ReadStream.emit (node:events:532:35)
+    at ReadStream.emit (node:domain:488:12)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+[error] 
+[error] Error: An unexpected error has occurred.
